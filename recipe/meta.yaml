@@ -1,5 +1,5 @@
 {% set name = "matplotx" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/matplotx-{{ version }}.tar.gz
-  sha256: 9775c6df92d6234eabcc3605a17483912802aba996f0b29c3b73837d65fe7a48
+  sha256: bbf564bd4bea0a7921a9b648509f50f16a9bb7ea7d6d5e5773247ed5b06f7d2f
 
 build:
   number: 0
