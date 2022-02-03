@@ -18,6 +18,7 @@ build:
 requirements:
   host:
     - pip
+    - flit-core
     - python >=3.7
   run:
     - matplotlib-base
