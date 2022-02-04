@@ -1,5 +1,5 @@
 {% set name = "matplotx" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/matplotx-{{ version }}.tar.gz
-  sha256: 9775c6df92d6234eabcc3605a17483912802aba996f0b29c3b73837d65fe7a48
+  sha256: 78a53ba7fcd5778789a49139b5aa08895f55d428e29a6d295ae4137fc214772b
 
 build:
   number: 0
@@ -18,9 +18,11 @@ build:
 requirements:
   host:
     - pip
+    - flit-core
     - python >=3.7
+    - matplotlib
   run:
-    - matplotlib-base
+    - matplotlib
     - networkx
     - python >=3.7
 
