@@ -20,8 +20,9 @@ requirements:
     - pip
     - flit-core
     - python >=3.7
+    - matplotlib
   run:
-    - matplotlib-base
+    - matplotlib
     - networkx
     - python >=3.7
 
